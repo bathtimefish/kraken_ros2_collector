@@ -1,0 +1,2 @@
+grpcio == 1.64.1
+asyncio == 3.4.3
