@@ -27,7 +27,7 @@ class KrakenTopicCollector(Node):
                 setting['msg_type'],
                 setting['topic_name'],
                 self.collector_callback,
-                10
+                1
             )
             setattr(self, setting['topic_name'], s)
             getattr(self, setting['topic_name'])  # prevent unused variable warning
